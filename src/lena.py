@@ -76,7 +76,7 @@ while cap.isOpened():
     img = cv2.resize(frame, (0,0),fx=0.5,fy=0.5)
     #Finding the contours of the AR Tag 
     contour, edge = contour_gen(img)
-  
+    #Detecting Tag and superimposing Lena image is done here
     for i in range(len(contour)):
         H = homography(contour[i],p2)
         tag = warpTag(img, H, (200,200))
