@@ -2,7 +2,7 @@
 [![License:MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/nalindas9/AR-tag-detection-and-tracking/blob/master/LICENSE)
 
 ## About
-Detecting an AR tag in a video file and implementing augmented reality applications in the video
+Detecting an AR tag in a video file and superimposing a skeleton cube over it in the video.
 
 <img src = "images/ezgif-2-74c7c828b0a4.gif">
 <img src = "images/ezgif-2-982cab4035e4.gif">
